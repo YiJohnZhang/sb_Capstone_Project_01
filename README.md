@@ -41,5 +41,6 @@ For the scope of this project, I intend only to input a limited amount of data; 
 
 ## Sources
 [1] Unknown. *Pet Statistics*. **American Society for the Prevention of Cruelty to Animals**. https://www.aspca.org/helping-people-pets/shelter-intake-and-surrender/pet-statistics (retrieved 2022-06-29)
+
 [2] Cvetkovska, L. *44 Shocking Animal Shelter Statistics (2022 Update)*. **petpedia.co**.
 https://petpedia.co/animal-shelter-statistics/#14,000%20shelters%20and%20rescue%20groups (updated 2022-02-18, retrieved 2022-06-29)
