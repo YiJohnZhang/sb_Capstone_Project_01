@@ -9,6 +9,7 @@ According to the American Society for the Prevention of Cruelty to Animals (“A
 The current types of users that will be supported and considered are:
 - **Pet Rescue Groups / Pet Adoption Centers**: To list pets available for adoption.
 - **Prospective Pet Adopters**: To find a pet that is in the database and potentially to be searched by Pet Rescue Groups for outreach.
+
 The current regional location targeted is:
 - **San Francisco Bay Area**: eventually probably expand outwards to cover the United States.
 
@@ -16,27 +17,27 @@ The current regional location targeted is:
 For the scope of this project, I intend only to input a limited amount of data; seed the database with a sample list of pets for adoption. It depends whether or not the web application will be ready for use.
 
 ## Project Creation Outline
-**Database Schema**
-See `` in the same directory. ==++**TODO**++==
-**Possible API Issues**
-Not sure.
-**Sensitive Information to Secure**
-Login Credentials
-Pet Shelter: Account Registration Information
-Pet Adopter: Profile Information
-Chat Logs
-**API Functionality**
-Mostly just retrieve search results.
-Chat: Consider retrieving chat logs for persistence.
-Forums?: To improve site usefulness (i.e. tips on pet care, etc.)
-**User Flow**
-Public: Register > Search > View Pets > Share
-Pet Shelter: Register / Sign-In > Add Pet Listings > Modify/Manage Pet Listings > Close Account?; Search Pet Adopters > Contact (Pet Adopters)
-Pet Adopter: Register / Sign-In > Search Pet Listings > Contact (Pet Shelters)
-**Goals in addition to basic CRUD Features**
-Nice UI. Initially, I only intend Craigslist-like UI
-Flask File. Allow pet shelters to upload a CSV to be parsed into the database. (Sanitize text to prevent injection).
-Basic Chat Feature
+a. **Database Schema**
+  - See `` in the same directory. ==++**TODO**++==
+b. **Possible API Issues**
+  - Not sure.
+c. **Sensitive Information to Secure**
+  - Login Credentials
+  - Pet Shelter: Account Registration Information
+  - Pet Adopter: Profile Information
+  - Chat Logs
+d. **API Functionality**
+  - Mostly just retrieve search results.
+  - Chat: Consider retrieving chat logs for persistence.
+  - Forums?: To improve site usefulness (i.e. tips on pet care, etc.)
+e. **User Flow**
+  - Public: Register > Search > View Pets > Share
+  - Pet Shelter: Register / Sign-In > Add Pet Listings > Modify/Manage Pet Listings > Close Account?; Search Pet Adopters > Contact (Pet Adopters)
+  - Pet Adopter: Register / Sign-In > Search Pet Listings > Contact (Pet Shelters)
+f. **Goals in addition to basic CRUD Features**
+  - Nice UI. Initially, I only intend Craigslist-like UI
+  - Flask File. Allow pet shelters to upload a CSV to be parsed into the database. (Sanitize text to prevent injection).
+  - Basic Chat Feature
 
 ## Sources
 [1] Unknown. *Pet Statistics*. **American Society for the Prevention of Cruelty to Animals**. https://www.aspca.org/helping-people-pets/shelter-intake-and-surrender/pet-statistics (retrieved 2022-06-29)
