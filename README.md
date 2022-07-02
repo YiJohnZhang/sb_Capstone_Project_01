@@ -18,7 +18,13 @@ For the scope of this project, I intend only to input a limited amount of data; 
 
 ## Project Creation Outline
 1. **Database Schema**
-  - See `` in the same directory. ==++**TODO**++==
+  - See the following three files in the same directory:
+    - **Paste the contents of this in [https://app.quickdatabasediagrams.com/#/](https://app.quickdatabasediagrams.com/#/)**: `24.09.01_-_01.database_schema_src.md`
+    - **Database Schema, Image**: `24.09.01_-_01.database_schema_img.png`
+    - **Database Schema, Documentation**: `24.09.01_-_01.database_schema_documentation.pdf`
+  - Questions:
+    - **On the use of "UUID"**: Is it suggested to use UUID as a way to index information (see "Pets" model, "internal_uuid" attribute)?
+    - **Implementing Address Validation**: I am thinking of using [USPS's (**U**nited **S**tates **P**ostal **S**ervice) Address Validation API](https://www.usps.com/business/web-tools-apis/address-information-api.htm#_Toc39492052). This way I skip the relations related to location for the user.
 2. **Possible API Issues**
   - Not sure.
 3. **Sensitive Information to Secure**
